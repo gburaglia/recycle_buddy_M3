@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#modelLabel {
+ text-align: left;
+  color: #3d3621;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

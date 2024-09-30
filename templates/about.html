@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{%block content%}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p></p>
+      <h3>Introduction:</h3>
+      <p>Interactive AI Application with Teachable Machine, P5.js, and Ml5.js called Recycle Buddy. Created for the class LMC 8803 GM1 AI 4 DM taught by Brian Magerko and Manoj Deshpande at Georgia Tech.
+      I wanted to provide a prototype AI model that would help consumers sort through their individual trash and facilitate proper recycling. While simultaneously teaching them through visual indicators when an item is categorized.</p>
+      <p>
+        For the first milestone, the model could classify an object as belonging to 1 of 5 categories, after being trained on ~1000 images per category. For the second milestone, in the case of identifying a platic object, the user could further specify type of plastic by holding up their fingers.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h3>How to Interact:</h3>
+      <p>This interactive project makes use of your webcam to help you sort your recyclables</p>
+        <ul>
+          <li> Starting Up: Ensure your webcam is active as the project requires it to identify your recyclable object.</li>
+          <li> Classifying: Hold up your object to know what it is made of and if it can be recycled.</li>
+        </ul>
+    </div>
+  </div>
+  <div class="col-12">
+    <p>Below is the sample out put from the interaction:</p>
+  </div>
+  <div class="row align-items-center d-flex">
+    
+    <div class="col text-center"> 
+      <h3>Milestone 1</h3>
+      <img src="imgs/milestone1.png" alt="Geometric shapes" style="width: 600px;"  >
+    </div>
+    <div class="col text-center">
+      <h3>Milestone 2</h3>
+      <img src="imgs/milestone2.png" alt="Geometric shapes" style="width: 600px;">
+    </div>
+
+  </div>
+
+  
+</div>
+{%endblock%}
